@@ -17,3 +17,13 @@ The output will be at least 30 comments and it will look something like this
 comment: Nice video!
 comment: Bad Video!
 ```
+## Requirements
+Selenium + drivers
+You can get selenium by typing:
+```bash
+pip install selenium
+```
+You will also need drivers for your prefered browser. You can get it here. https://selenium.dev/downloads/. To make this, I used Chrome. If you want to use a different browser, change the "Chrome" on line 8 to whatever you want.
+```python
+driver = webdriver.Chrome()
+```
