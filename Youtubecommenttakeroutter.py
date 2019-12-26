@@ -18,6 +18,3 @@ class GetComments:
         comments = [elem.text for elem in driver.find_elements_by_xpath('//*[@id="content-text"]')]
 
         return ' '.join([str(elem) for elem in [f"\n{prefix}" + x for x in comments]])
-
-
-print(GetComments("https://www.youtube.com/watch?v=DU2AFIOnw_c", 300, "Comment:"))
