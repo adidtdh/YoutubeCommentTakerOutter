@@ -2,7 +2,7 @@
 A few lines of python to take the comments from YouTube videos without using the API
 ## Usage
 ```python
-import Youtubecommenttakeroutter
+from Youtubecommenttakeroutter import GetComments
 ```
 This imports the library so that you can use it. Once you have imported it, using it is super simple.
 ```python
